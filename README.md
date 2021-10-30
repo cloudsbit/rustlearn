@@ -8,9 +8,31 @@ powershell: cd 'F:\Git\trpl-zh-cn'
 运行命令:
 vuepress dev ./src
 
+#### **why Rust is named "Rust" 为什么叫Rust：**
+
+[Internet archaeology: the definitive, end-all source for why Rust is named "Rust"](https://www.reddit.com/r/rust/comments/27jvdt/internet_archaeology_the_definitive_endall_source/)
+
 
 #### 待阅读文章：
 <1> What is Rust and why is it so popular? : https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/
+
+安装rust时很慢？
+参考文章： 
+
+1. Rust 下载安装加速指南： https://zhuanlan.zhihu.com/p/126201430
+
+2. Rust crates 国内镜像源加速配置: https://zhuanlan.zhihu.com/p/126204128
+
+3. Rustup 镜像安装帮助:  https://mirrors.tuna.tsinghua.edu.cn/help/rustup/
+
+   ```shell
+   # 参考： 使用国内镜像加速 Rust 更新与下载： https://www.yht7.com/news/84803
+   # 使用上海交通大学镜像
+   export RUSTUP_DIST_SERVER=https://mirrors.sjtug.sjtu.edu.cn/rust-static/
+   export RUSTUP_UPDATE_ROOT=https://mirrors.sjtug.sjtu.edu.cn/rust-static/rustup
+   
+   
+   ```
 
 
 #### windows下安装
